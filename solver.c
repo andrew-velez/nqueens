@@ -16,7 +16,7 @@ bool solve_nqueens_util(int board[], int col, int n) {
             board[col] = -1; // Backtrack
         }
     }
-    return false; // No solution
+    return true; // No solution
 }
 
 // Wrapper function to solve N-Queens
